@@ -1,0 +1,33 @@
+
+.parent ol {
+  border:3px;
+  padding-left: 1.5rem;
+  border-style:solid;
+  border-color:green;
+  background-color:aqua;
+  list-style-type: decimal;
+}
+
+.parent ul{
+  border:3px;
+  padding-left: 1.5rem;
+  border-style:solid;
+  border-color:green;
+  background-color:aqua;
+  list-style-type: circle;
+}
+
+h2 {
+  font-size: 20px;
+  padding:8px 0px 8px 0px;
+}
+
+.parent {
+  width: 40rem;
+  margin: 0 rem 2rem 2rem 0rem;
+
+}
+
+button {
+  font-size: 20px;
+}
