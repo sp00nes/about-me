@@ -1,14 +1,14 @@
 
-"use strict";
+'use strict';
 
 let score = 0;
 
-function greet() {
+function greet() { //eslint-disable-line
   let id = prompt('What is your name?', '');
   alert('Welcome ' + id + '!');
 }
 
-function quiz() {
+function quiz() { //eslint-disable-line
   let checkTest = prompt('Are you ready to take the test? (y/n)').toLowerCase();
   if (checkTest === 'y' || checkTest === 'yes') {
     alert('Alright!');
@@ -87,7 +87,7 @@ function quiz() {
   }
 }
 
-function game() {
+function game() { //eslint-disable-line
   alert('Im thinking of a number between 1-10 can you guess?');
   let attempts = 4;
   let guess = 0;
@@ -114,7 +114,7 @@ function game() {
   }
 }
 
-function game2() {
+function game2() { //eslint-disable-line
   let attemptsRemaining = 7;
   let myNum = [2, 3, 4, 6, 12];
   let userGuess = 0;
@@ -137,6 +137,6 @@ function game2() {
   }
 }
 
-function finalScore() {
+function finalScore() { //eslint-disable-line
   alert('You got ' + score + '/7 correct!');
 }
