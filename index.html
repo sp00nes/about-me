@@ -11,33 +11,25 @@
 </head>
 
 <body>
-  <script src="js/app.js" type="text/javascript"></script>
-
   <header>
-    <script type="text/javascript">
-      greet()
-      quiz()
-      game()
-      game2()
-      finalscore()
-    </script>
+    <h1>All About Martin Rodney Hansen!</h1>
   </header>
 
   <main>
-    <section class="parent">
+    <section class="content parentAbout">
       <h2>Hello! My name is Martin Rodney Hansen. I grew up in the Seattle Washington area but recently moved to
         Middleton Idaho. I am 20 years old as of September 24th 2022. My favorite food is any mexican food but
         particularly burritos or enchiladas. My primary goal in life is to own a house and have a big family. My
         favorite color is green and currently live as the most humble person alive!</h2>
     </section>
-    <section class="parent">
+    <section class="sidebar">
       <button href='#' onclick='quiz()'>Take Quiz!</button>
       <button href='#' onclick='game()'>Guessing Game!</button>
       <button href='#' onclick='game2()'>Guessing Game 2!</button>
     </section>
-    <section class="parent">
+    <section class="content parent">
       <h2>Work Experience</h2>
-      <ul>
+      <ul class="box">
         <li>Completed education: GED</li>
         <li>Current education: Code Fellows</li>
         <li>Gymnastics Instructor</li>
@@ -46,7 +38,7 @@
       </ul>
 
       <h2>Top 10 Favorite Video Games</h2>
-      <ol>
+      <ol class="box">
         <li>Super Smash Bros</li>
         <li>Minecraft</li>
         <li>Factorio</li>
@@ -60,9 +52,18 @@
       </ol>
     </section>
   </main>
-  <footer>
 
+  <footer class="box">
+    <p>Martin Hansen</p>
   </footer>
+
+  <script src="js/app.js" type="text/javascript">
+    //greet()
+    //quiz()
+    //game()
+    //game2()
+    //finalscore()
+  </script>
 </body>
 
 </html>
