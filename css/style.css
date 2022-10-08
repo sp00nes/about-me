@@ -1,33 +1,66 @@
-
-.parent ol {
-  border:3px;
-  padding-left: 1.5rem;
-  border-style:solid;
-  border-color:green;
-  background-color:aqua;
-  list-style-type: decimal;
+header {
+  box-sizing: border-box;
+  position: fixed;
+  font-size: 4rem;
 }
 
-.parent ul{
-  border:3px;
-  padding-left: 1.5rem;
-  border-style:solid;
-  border-color:green;
-  background-color:aqua;
-  list-style-type: circle;
+header h1 {
+  position: relative;
+  left: 0.3rem;
+}
+
+footer {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 h2 {
   font-size: 20px;
-  padding:8px 0px 8px 0px;
+  padding: 8px 0px 8px 0px;
 }
 
-.parent {
-  width: 40rem;
-  margin: 0 rem 2rem 2rem 0rem;
-
-}
 
 button {
   font-size: 20px;
+  display: block;
+  margin: 0rem 0.2rem 0.2rem 0.3rem;
+}
+
+.content {
+  position: fixed;
+  left: 18rem;
+  top: 5rem;
+}
+
+.box {
+  border: 3px;
+  padding-left: 1.5rem;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(199, 199, 199);
+}
+
+.parentAbout {
+  width: 50rem;
+  margin: 0 rem 4rem 4rem 0rem;
+  position: relative;
+}
+
+.parent {
+  width: 30rem;
+  top: 1rem;
+  margin: 0 rem 2rem 2rem 0rem;
+  position: relative;
+}
+
+.parent ol {
+  list-style-type: decimal;
+}
+
+.parent ul {
+  list-style-type: circle;
 }
